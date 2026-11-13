@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+report.json
+
+# Data files (sensitive – ensure .gitignore keeps PHI out of repo)
+claims_export.csv
+*.csv
+
+# SQL
+*.sql.bak
+
+# Virtual environments
+venv/
+.env
+.env.*
